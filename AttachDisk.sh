@@ -1,7 +1,7 @@
 #!/bin/bash  -xue
 
 if [ $# -lt 2 ]; then
-    echo "Usage: $0 [VM name] [DiskImage]"  1>&2
+    echo  "Usage: $0 (VM name) (DiskImage)"  1>&2
     exit  1
 fi
 
